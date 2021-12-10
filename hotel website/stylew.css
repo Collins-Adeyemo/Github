@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  background-image: url("./images/bgimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  left: 100px;
+  top: -45px;
+}
+
+nav ul {
+  display: flex;
+  padding-top: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.last-menu {
+  margin-right: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.row__container {
+  position: relative;
+  color: white;
+}
+
+.row {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
+
+.welcome__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 61px;
+
+  color: #ffffff;
+}
+
+.luxury__text {
+  font-size: 120px;
+}
+
+.hotel__text {
+  font-size: 35px;
+}
+
+.header__paragraph {
+  font-size: 20px;
+}
+
+.btn__row {
+  position: relative;
+  overflow: none;
+}
+
+.header__btn {
+  position: absolute;
+  width: 150px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0b973;
+  color: white;
+  top: 400px;
+  left: 357px;
+}
+
+.p__container {
+  padding-right: 30px;
+}
+
+/* section two css */
+
+.section__two {
+  overflow: hidden;
+  position: absolute;
+  top: 800px;
+}
+
+.col-mdd-12 {
+  text-align: center;
+}
+
+.section__image {
+  width: 100%;
+}
+
+.roww {
+  display: flex;
+  margin: 10px 100px;
+}
+
+.section__first__child {
+  flex: 1;
+  border-left: 1px solid #000;
+  padding-left: 15px;
+}
+
+.section__btn {
+  background-color: #e0b973;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.section__second__child {
+  flex: 1;
+}
